@@ -29,7 +29,6 @@
 
 .locations,
 .amenities {
-    justify-content: center;
     height: 100%;
     width: 25%;
 }
@@ -40,11 +39,13 @@
 
 h3 {
     font-weight: 600;
+    padding-left: 15px;
 }
 
 h4 {
     font-weight: 400;
     font-size: 14px;
+    padding-left: 15px;
 }
 
 li {
@@ -52,14 +53,16 @@ li {
 }
 h2 {
     font-size: 16px;
+}
 
-  .popover {
+.popover {
+    margin-top: -14px;
     background-color: #fafafa;
     border: 1px solid #dddddd;
     border-radius: 4px;
     text-align: left;
     display: none;
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 30px;
 }
 
