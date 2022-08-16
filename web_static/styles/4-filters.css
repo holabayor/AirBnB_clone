@@ -1,12 +1,12 @@
 .filters {
-    color: white;
     height: 70px;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    background-color: white;
+    border: 1px solid #dddddd;
     border-radius: 4px;
-    position: relative;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .filters button{
@@ -19,9 +19,8 @@
     border-radius: 4px;
     position: absolute;
     right: 30px;
-
 }
 
 .filters button:hover {
-    opacity: 0.9;
+    opacity: .9;
 }
