@@ -6,6 +6,6 @@ header {
 }
 
 .logo {
-    content: url("../images/header_image.png");
-    display: block;
+    content: url(../images/header_image.png);
+    margin-left: 20px;
 }

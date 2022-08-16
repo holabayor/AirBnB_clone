@@ -1,4 +1,5 @@
 .filters {
+
     height: 70px;
     width: 100%;
     background-color: white;
@@ -12,15 +13,14 @@
 
 .filters button{
     font-size: 18px;
-    background-color: #ff5a5f;
-    color: #fff;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
     height: 48px;
     width: 20%;
     border: none;
     border-radius: 4px;
-    right: 30px;
-    vertical-align: middle;
     position: absolute;
+    right: 30px;
 }
 
 .filters button:hover {
@@ -29,13 +29,15 @@
 
 .locations,
 .amenities {
+    justify-content: center;
     height: 100%;
     width: 25%;
 }
 
 .locations {
-    border-right: 1px solid #dddddd;
+    border-right: 1px solid #DDDDDD;
 }
+
 h3 {
     font-weight: 600;
 }
@@ -45,7 +47,13 @@ h4 {
     font-size: 14px;
 }
 
-.popover {
+li {
+    list-style: none;
+}
+h2 {
+    font-size: 16px;
+
+  .popover {
     background-color: #fafafa;
     border: 1px solid #dddddd;
     border-radius: 4px;
@@ -53,15 +61,6 @@ h4 {
     display: none;
     padding: 20px;
     padding-bottom: 30px;
-}
-
-li {
-    list-style-type: none;
-}
-
-h2 {
-    font-size: 16px;
-    margin-bottom: 0;
 }
 
 section.filters div:hover ul.popover{
